@@ -225,6 +225,11 @@ $ git push origin v1.5
 # push all tags to the server
 $ git push origin –tags
 
+# push and set the upstream
+$ git push --set-upstream origin master
+or
+$ git push -u origin master
+
 # list tags in an alphabetical order
 $ git tag
 
