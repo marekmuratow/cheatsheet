@@ -230,6 +230,9 @@ $ git push --set-upstream origin master
 or
 $ git push -u origin master
 
+# list commited files
+git ls-tree --name-only -r master
+
 # list tags in an alphabetical order
 $ git tag
 
