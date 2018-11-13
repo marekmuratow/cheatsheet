@@ -230,6 +230,9 @@ $ git push --set-upstream origin master
 or
 $ git push -u origin master
 
+# force changes for example after commit --ammend. Warning do not use if someone alread pulled changes from the repository, because command ovverrides commits
+$ git push -f origin master
+
 # list commited files
 git ls-tree --name-only -r master
 
